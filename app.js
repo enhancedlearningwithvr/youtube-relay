@@ -16,3 +16,7 @@ app.get("/", cors, (_, res) => {
 	res.send("API Online!")
 })
 
+
+app.get("*", cors, (_, res) => {
+    res.status(404).send("Not Found")
+})
