@@ -1,5 +1,5 @@
 {
-  "name": "youtube-repeater",
+  "name": "youtube-relay",
   "version": "1.0.0",
   "description": "Relay YouTube Videos with CORS",
   "main": "app.js",
